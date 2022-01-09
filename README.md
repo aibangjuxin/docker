@@ -31,6 +31,8 @@ PING www.a.shifen.com (14.215.177.38) 56(84) bytes of data.
 100 packets transmitted, 100 received, 0% packet loss, time 1446ms
 rtt min/avg/max/mdev = 40.929/65.116/187.912/37.185 ms, pipe 13, ipg/ewma 14.606/42.619 ms
 
+
+docker build -t ubuntu:tools /root/tool/
 node1 root@node1:~# docker images
 REPOSITORY                                        TAG                     IMAGE ID            CREATED             SIZE
 ubuntu                                            tools                   fed5c746dbc8        44 seconds ago      529MB
